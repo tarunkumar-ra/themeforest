@@ -1,0 +1,241 @@
+.Buy-Tickets {
+  background-color: #f8f8f8;
+  border: 1px solid #f8f8f8;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  height: auto;
+}
+
+.tickets {
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 100%;
+  height: auto;
+}
+
+.all-prices {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -48px;
+}
+
+.all-prices2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -7px;
+}
+
+.quantity {
+  display: flex;
+  margin-top: 35px;
+}
+
+.quantity2 {
+  display: flex;
+  margin-top: 20px;
+}
+
+.second {
+  font-size: 16px;
+}
+
+.arrive {
+  font-size: 14px;
+  color: #848589;
+}
+
+.tic-type {
+  color: #848589;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.Price {
+  color: #848589;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.quantity-heading {
+  color: #848589;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.booking {
+  font-size: 12px;
+  margin-left: -19px;
+  margin-top: 2px;
+}
+
+.rupees {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.rupees2 {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.pricing {
+  margin-right: 100px;
+}
+
+.negitive {
+  border: 1px solid #d45f23;
+  background-color: #d45f23;
+  width: 28px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.number {
+  border: 0px solid;
+  width: 31px;
+  font-size: 14px;
+  color: #d45f23;
+  text-align: center;
+  font-weight: 500;
+}
+
+.positive {
+  border: 1px solid #d45f23;
+  background-color: #d45f23;
+  color: #fff;
+  width: 28px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ticts1 {
+  border-bottom: 1px solid #ced4da;
+  padding-top: 15px;
+}
+
+.ticts2 {
+  border-bottom: 1px solid #ced4da;
+  padding-top: 28px;
+}
+
+.ticts1 {
+  padding-bottom: 5px;
+}
+
+.ticts2 {
+  padding-bottom: 5px;
+}
+
+.fee {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.sub-totals {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 11px;
+}
+
+.tot {
+  display: flex;
+  border: 0px solid;
+  text-align: center;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 50px;
+  margin-top: 14px;
+  margin-right: 20px;
+}
+
+.pri-tot {
+  margin-left: 7px;
+}
+
+.buy-tickets {
+  border: 1px solid #d54f22;
+  text-align: center;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  line-height: 50px;
+  margin-top: 14px;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(214, 105, 34, 1) 0%,
+    rgba(207, 67, 40, 1) 100%
+  );
+}
+
+@media screen and (max-width: 767px) {
+  .all-prices {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 6px;
+  }
+  .all-prices2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 6px;
+  }
+
+  .ticts1 {
+    padding-bottom: 20px;
+  }
+  .ticts2 {
+    padding-bottom: 20px;
+  }
+
+  .second {
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .tot {
+    font-size: 14px;
+  }
+
+  .buy-tickets {
+    width: 113px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .booking {
+    font-size: 11px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .tickets {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .pricing {
+    margin-right: 50px;
+  }
+}
